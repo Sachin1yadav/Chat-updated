@@ -1,0 +1,49 @@
+@media only screen and (max-width: 900px) {
+    .responsive_navbar {
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        font-size: 1px;
+
+    }
+
+    .display_title {
+        display: none;
+    }
+
+    .remove_flex {
+        display: flex;
+    }
+
+    .hide_searchbar {
+        display: none;
+    }
+
+    .responsive_navbar h1 {
+        font-size: 13px;
+    }
+
+    .responsive_navbar div {
+        z-index: 999;
+    }
+
+    .responsive_navbar1 {
+        width: 77% !important;
+    }
+
+    .profile_img {
+        height: 25px;
+    }
+
+    .responsive_navbar1 div {
+        font-size: 13px;
+    }
+}
+
+
+input[type=text] {
+    /* width: 100%; */
+    /* border-radius: 4px; */
+    resize: vertical;
+}

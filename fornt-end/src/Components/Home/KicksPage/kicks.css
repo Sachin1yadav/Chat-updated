@@ -1,0 +1,56 @@
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hideScroll {
+  scrollbar-width: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .responsive_desktop {
+    display: none;
+  }
+}
+
+.video-container {
+  position: relative;
+  height: 80vh;
+  width: 70%;
+  /* border-radius: 20px; */
+  background-color: white;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.video-container_mobile {
+  position: relative;
+  /* height: 87vh !important; */
+  width: 100% !important;
+  max-width: 100% !important;
+  border-radius: 20px;
+  background-color: white;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.video-container::-webkit-scrollbar {
+  display: none;
+}
+
+.video-player {
+  height: 100%;
+  width: 100%;
+}
+
+.video-cards {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  /* position: relative; */
+}
